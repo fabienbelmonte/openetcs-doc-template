@@ -27,7 +27,7 @@
 \lhead{\textsc{\textbf{\footnotesize\@reportnum}}}
 \rhead{\textrm{\textbf{\footnotesize\thepage}}}
 \chead{}
-\lfoot{\colorbox{blue}{\color{white}\textit{openETCS}} }
+\lfoot{\colorbox{blue}{\color{white}\textsf{\textit{openETCS}}} }
 \cfoot{}
 \rfoot{cc-by-sa 3.0}
 
@@ -67,7 +67,7 @@
              \colorbox{blue}{\color{white}\parbox{900\p@}{%
                  \rule{0\p@}{85\p@}%
                  \hspace{70\p@}\raisebox{40\p@}{%
-                   \parbox[c]{350\p@}{\@titlefont\itshape openETCS}%
+                   \parbox[c]{350\p@}{\@titlefont\sffamily\itshape openETCS}%
                    \hspace{60\p@}%
                    \parbox[c]{300\p@}{\hfill\@reportnumfont\@reportnum}}}}}}}%
      \hspace*{-14\p@}}%
