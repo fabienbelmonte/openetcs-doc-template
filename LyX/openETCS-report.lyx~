@@ -24,8 +24,8 @@
 \renewcommand{\footrulewidth}{0pt}
 \fancyhfoffset{35pt}
 \pagestyle{fancy}
-\lhead{\textsc{\textbf{\footnotesize\@reportnum}}}
-\rhead{\textrm{\textbf{\footnotesize\thepage}}}
+\lhead{\textsf{\textbf{\footnotesize\@reportnum}}}
+\rhead{\textsf{\textbf{\footnotesize\thepage}}}
 \chead{}
 \lfoot{\colorbox{blue}{\color{white}\textit{openETCS}} }
 \cfoot{}
