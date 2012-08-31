@@ -14,18 +14,19 @@
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{\baselineskip}
-\setlength\labelwidth{1em}
-\setlength\leftmargini\z@
-\addtolength\leftmargini\labelwidth
-\addtolength\leftmargini\labelsep
+%\setlength\labelwidth{1em}
+%\setlength\leftmargini\z@
+%\addtolength\leftmargini\labelwidth
+%\addtolength\leftmargini\labelsep
 
 \usepackage{fancyhdr}
+\usepackage{lastpage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancyhfoffset{35pt}
 \pagestyle{fancy}
 \lhead{\textsc{\textbf{\footnotesize\@reportnum}}}
-\rhead{\textrm{\textbf{\footnotesize\thepage}}}
+\rhead{\textrm{\textbf{\footnotesize\thepage\  / \pageref{LastPage}}}}
 \chead{}
 \lfoot{\colorbox{blue}{\color{white}\textsf{\textit{openETCS}}} }
 \cfoot{}
@@ -409,7 +410,7 @@ thispagestyle{empty}
 <lyxtabular version="3" rows="4" columns="3">
 <features tabularvalignment="middle" tabularwidth="100text%">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -421,7 +422,7 @@ Version
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -450,7 +451,7 @@ Description
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -479,7 +480,7 @@ Initial commit, set up of the template
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -508,7 +509,7 @@ Debug
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
